@@ -1,7 +1,7 @@
 {
   "name": "ide-standardjs",
   "main": "./lib/ide-standardjs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "JavaScript Standard Style linter and formatter for Atom IDE",
   "keywords": [
     "atom-ide",
@@ -26,6 +26,8 @@
     "standard": "^10.0.3"
   },
   "standard": {
-    "globals": ["atom"]
+    "globals": [
+      "atom"
+    ]
   }
 }
