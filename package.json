@@ -2,12 +2,18 @@
   "name": "ide-standardjs",
   "main": "./lib/ide-standardjs",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "description": "JavaScript Standard Style linter and formatter for Atom IDE",
+  "keywords": [
+    "atom-ide",
+    "javascript",
+    "standard",
+    "linter",
+    "formatter"
+  ],
   "repository": "https://github.com/yuriihabrusiev/ide-standardjs",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.22.0 <2.0.0"
   },
   "providedServices": {
     "linter": {
