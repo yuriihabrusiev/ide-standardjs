@@ -4,16 +4,22 @@
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "ide-standardjs:toggle"
-  },
-  "repository": "https://github.com/atom/ide-standardjs",
+  "repository": "https://github.com/yuriihabrusiev/ide-standardjs",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "dependencies": {
     "standard": "^10.0.3"
+  },
+  "standard": {
+    "globals": ["atom"]
   }
 }
